@@ -2,10 +2,10 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <div className='w-screen h-fit flex bg-white'>
+    <div className='w-[95%] h-fit flex bg-white'>
       <div className=' flex items-center justify-between'>
         <img src='FINILOGO.png' alt='logo' className='h-24' />
-        <div className='grid gap-6 grid-cols-2 sm:grid-cols-3  md:grid-cols-6 xl:grid-cols-6 md:gap-9   text-2xl from-neutral-600 font-extralight font-wow'>
+        <div className='grid gap-6 grid-cols-2 sm:grid-cols-3  md:grid-cols-6 xl:grid-cols-6 md:gap-9  text-2xl from-neutral-600 font-extralight font-wow'>
           <a href='overview' className='text-gray-800 mx-2 hover:underline font-bold'>Overview</a>
           <a href='category' className='text-gray-800 mx-2 hover:underline font-bold'>Category</a>
           <a href='business' className='text-gray-800 mx-2 hover:underline font-bold'>Business</a>

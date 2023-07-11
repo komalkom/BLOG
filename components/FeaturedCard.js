@@ -3,20 +3,20 @@ import { motion } from 'framer-motion';
 
 const FeaturedCard = () => {
   return (
-    <div className='w-screen h-[20%] rounded-xl mt-[2%]'>
+    <div className='w-[100%] h-[20%]  rounded-xl mt-[2%]'>
       <motion.div
         initial={{ opacity: 0, scale: 0.8 }}
-        animate={{ opacity: 1, scale: 1 }}
-        className='object-cover w-screen  relative'
+        animate={{ opacity: 1, scale: 0.9 }}
+        className='object-fit w-screen  relative'
       >
         <img
           src='fintech.png'
-          className='w-screen h-[100%] rounded-xl'
+          className='w-[100%] rounded-xl'
           alt='Fintech'
         />
-        <div className='hidden md:block absolute pt-6 bottom-0 left-0 right-0  text-white mb-[52%] ml-[1%] 7'>
+        <div className='hidden md:block absolute pt-6 bottom-0 left-0 right-0 font-wow w-[95%] text-white mb-[52%] ml-[1%] '>
           <h2 className='md:text-3xl font-extrabold mb-2'>Investment in your financial well-being</h2>
-          <button className='md:px-4 py-2 bg-blue-500 text-white font-semibold rounded hover:bg-blue-600'>
+          <button className='md:px-4 py-2 bg-blue-500 text-white font-semibold rounded  hover:bg-blue-600'>
             Get Started
           </button>
         </div>

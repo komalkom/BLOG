@@ -16,9 +16,11 @@ export default function Home() {
       <Footer />
       <section className='absolute md:mt-[10%] mt-[10%]'>
 
-       
-        <Feed/>
+
+        <Feed />
+
       </section>
+
     </div>
   )
 }
